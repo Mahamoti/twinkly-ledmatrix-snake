@@ -3,12 +3,14 @@ Snake for the Twinkly led matrix
 
 This Python program allows you to play the classic Snake game on a Twinkly LED board. It uses the Twinkly LED board to display the game grid and the snake.
 
+![Snake Game](./twinkly-snake-game.jpg)
+
 ## Prerequisites
 
 Before you can run this program, make sure you have the following:
 
 1. [Twinkly LED board](https://www.twinkly.com/)
-2. Python 3.x installed on your system. I dit use 3.9.6 on a macbook pro M1
+2. Python 3.x installed on your system. I dit use Python3 3.9.6 on a macbook pro M1
 3. The following Python libraries installed:
    - xled
    - io
@@ -39,5 +41,9 @@ pip install xled keyboard requests
 The game grid is configured for a 6-tile Twinkly LED board. 
 See my image for the correct tile and cable setup.
 If you have a different configuration, you may need to adjust the led_matrix in the code to match your setup.
+
+#LED Matrix Cable setup
+if you don't do this the same, the snake will move onlogical over the tiles :-)
+![Twinkly cable and tiles setup](./twinkly-cable-setup.jpg)
 
 
