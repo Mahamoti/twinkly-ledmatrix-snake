@@ -3,6 +3,8 @@ Snake for the Twinkly led matrix
 
 This Python program allows you to play the classic Snake game on a Twinkly LED board. It uses the Twinkly LED board to display the game grid and the snake.
 
+[View the demo of the Snake game on the Twinkly Ledboard](https://youtube.com/shorts/5J2lf2HBeB4)
+
 ![Snake Game](./twinkly-snake-game.jpg)
 
 ## Prerequisites
